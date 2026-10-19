@@ -1,0 +1,136 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px 15px;
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #222;
+}
+
+.container {
+    max-width: 850px;
+    margin: auto;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    color: #1e3a5f;
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 480px;
+    margin: 0 auto 35px;
+    padding: 25px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px #0000000d;
+}
+
+.form-group {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 18px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+button {
+    padding: 10px 14px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background: #2563eb;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+#cancel {
+    background: #64748b;
+}
+
+.edit {
+    background: #0d9488;
+}
+
+.delete {
+    background: #dc2626;
+}
+
+table {
+    width: 100%;
+    margin-top: 18px;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 3px 10px #0000000d;
+}
+
+th, td {
+    padding: 13px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background: #1e3a5f;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f1f5f9;
+}
+
+#message {
+    text-align: center;
+    font-weight: bold;
+}
+
+@media (max-width: 550px) {
+    body {
+        padding: 15px 8px;
+    }
+
+    form {
+        padding: 16px;
+    }
+
+    th, td {
+        padding: 8px 4px;
+        font-size: 12px;
+    }
+
+    button {
+        padding: 8px;
+        font-size: 12px;
+    }
+}
