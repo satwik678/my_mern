@@ -8,7 +8,7 @@ It demonstrates a simple **CRUD (Create, Read, Update, Delete)** API built with 
 
 ## API Functionality
 
-- **POST /items** → Add new items (e.g., Item One, Item Two, Item Three).  
+- **POST /items** → Add new items with name of the item and price of the item.  
 - **GET /items** → Retrieve all items currently stored.  
 - **PUT /items/:id** → Update an existing item by its ID.  
 - **DELETE /items/:id** → Remove an item by its ID.  
